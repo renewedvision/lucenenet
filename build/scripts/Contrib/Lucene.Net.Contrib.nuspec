@@ -28,40 +28,58 @@
     <license type="expression">Apache-2.0</license>
     <projectUrl>http://lucenenet.apache.org/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Lucene.Net is a port of the Lucene search engine library, written in C# and targeted at .NET runtime users.
+    <description>Lucene.Net is a port of the Lucene search engine library, written in C# and
+      targeted at .NET runtime users.
 
-**This package contains only the contrib Lucene.Net assemblies.</description>
-    <summary>Lucene.Net is a port of the Lucene search engine library, written in C# and targeted at .NET runtime users.</summary>
-	<tags>lucene.net core search information retrieval lucene apache</tags>
-        <dependencies>
-            <group targetFramework="netstandard2.0" />
-        </dependencies>
+      **This package contains only the contrib Lucene.Net assemblies.</description>
+    <summary>Lucene.Net is a port of the Lucene search engine library, written in C# and targeted at
+      .NET runtime users.</summary>
+    <tags>lucene.net core search information retrieval lucene apache</tags>
+    <dependencies>
+      <group targetFramework="netstandard2.0">
+        <dependency id="System.Configuration.ConfigurationManager" version="8.0.0" />
+        <dependency id="Microsoft.CSharp" version="4.7.0" />
+        <dependency id="System.Data.DataSetExtensions" version="4.5.0" />
+      </group>
+    </dependencies>
   </metadata>
   <files>
-        <file src="..\..\bin\contrib\FastVectorHighlighter\Release\**\Lucene.Net.Contrib.FastVectorHighlighter.dll" target="lib" />
-        <file src="..\..\bin\contrib\FastVectorHighlighter\Release\**\Lucene.Net.Contrib.FastVectorHighlighter.XML" target="lib" />
-        <file src="..\..\bin\contrib\Highlighter\Release\**\Lucene.Net.Contrib.Highlighter.dll" target="lib" />
-        <file src="..\..\bin\contrib\Highlighter\Release\**\Lucene.Net.Contrib.Highlighter.XML" target="lib" />
-        <file src="..\..\bin\contrib\Memory\Release\**\Lucene.Net.Contrib.Memory.dll" target="lib" />
-        <file src="..\..\bin\contrib\Memory\Release\**\Lucene.Net.Contrib.Memory.XML" target="lib" />
-        <file src="..\..\bin\contrib\Analyzers\Release\**\Lucene.Net.Contrib.Analyzers.dll" target="lib" />
-        <file src="..\..\bin\contrib\Analyzers\Release\**\Lucene.Net.Contrib.Analyzers.XML" target="lib" />
-        <file src="..\..\bin\contrib\Core\Release\**\Lucene.Net.Contrib.Core.dll" target="lib" />
-        <file src="..\..\bin\contrib\Core\Release\**\Lucene.Net.Contrib.Core.XML" target="lib" />
-        <file src="..\..\bin\contrib\Queries\Release\**\Lucene.Net.Contrib.Queries.dll" target="lib" />
-        <file src="..\..\bin\contrib\Queries\Release\**\Lucene.Net.Contrib.Queries.XML" target="lib" />
-        <file src="..\..\bin\contrib\Regex\Release\**\Lucene.Net.Contrib.Regex.dll" target="lib" />
-        <file src="..\..\bin\contrib\Regex\Release\**\Lucene.Net.Contrib.Regex.XML" target="lib" />
-        <file src="..\..\bin\contrib\SimpleFacetedSearch\Release\**\Lucene.Net.Contrib.SimpleFacetedSearch.dll" target="lib" />
-        <file src="..\..\bin\contrib\SimpleFacetedSearch\Release\**\Lucene.Net.Contrib.SimpleFacetedSearch.XML" target="lib" />
-        <file src="..\..\bin\contrib\Snowball\Release\**\Lucene.Net.Contrib.Snowball.dll" target="lib" />
-        <file src="..\..\bin\contrib\Snowball\Release\**\Lucene.Net.Contrib.Snowball.XML" target="lib" />
-        <file src="..\..\bin\contrib\SpellChecker\Release\**\Lucene.Net.Contrib.SpellChecker.dll" target="lib" />
-        <file src="..\..\bin\contrib\SpellChecker\Release\**\Lucene.Net.Contrib.SpellChecker.XML" target="lib" />
-        <file src="..\..\bin\core\Release\**\Lucene.Net.dll" target="lib" />
-        <file src="..\..\bin\core\Release\**\Lucene.Net.XML" target="lib" />
+    <file
+      src="..\..\bin\contrib\FastVectorHighlighter\Release\**\Lucene.Net.Contrib.FastVectorHighlighter.dll"
+      target="lib" />
+    <file
+      src="..\..\bin\contrib\FastVectorHighlighter\Release\**\Lucene.Net.Contrib.FastVectorHighlighter.XML"
+      target="lib" />
+    <file src="..\..\bin\contrib\Highlighter\Release\**\Lucene.Net.Contrib.Highlighter.dll"
+      target="lib" />
+    <file src="..\..\bin\contrib\Highlighter\Release\**\Lucene.Net.Contrib.Highlighter.XML"
+      target="lib" />
+    <file src="..\..\bin\contrib\Memory\Release\**\Lucene.Net.Contrib.Memory.dll" target="lib" />
+    <file src="..\..\bin\contrib\Memory\Release\**\Lucene.Net.Contrib.Memory.XML" target="lib" />
+    <file src="..\..\bin\contrib\Analyzers\Release\**\Lucene.Net.Contrib.Analyzers.dll" target="lib" />
+    <file src="..\..\bin\contrib\Analyzers\Release\**\Lucene.Net.Contrib.Analyzers.XML" target="lib" />
+    <file src="..\..\bin\contrib\Core\Release\**\Lucene.Net.Contrib.Core.dll" target="lib" />
+    <file src="..\..\bin\contrib\Core\Release\**\Lucene.Net.Contrib.Core.XML" target="lib" />
+    <file src="..\..\bin\contrib\Queries\Release\**\Lucene.Net.Contrib.Queries.dll" target="lib" />
+    <file src="..\..\bin\contrib\Queries\Release\**\Lucene.Net.Contrib.Queries.XML" target="lib" />
+    <file src="..\..\bin\contrib\Regex\Release\**\Lucene.Net.Contrib.Regex.dll" target="lib" />
+    <file src="..\..\bin\contrib\Regex\Release\**\Lucene.Net.Contrib.Regex.XML" target="lib" />
+    <file
+      src="..\..\bin\contrib\SimpleFacetedSearch\Release\**\Lucene.Net.Contrib.SimpleFacetedSearch.dll"
+      target="lib" />
+    <file
+      src="..\..\bin\contrib\SimpleFacetedSearch\Release\**\Lucene.Net.Contrib.SimpleFacetedSearch.XML"
+      target="lib" />
+    <file src="..\..\bin\contrib\Snowball\Release\**\Lucene.Net.Contrib.Snowball.dll" target="lib" />
+    <file src="..\..\bin\contrib\Snowball\Release\**\Lucene.Net.Contrib.Snowball.XML" target="lib" />
+    <file src="..\..\bin\contrib\SpellChecker\Release\**\Lucene.Net.Contrib.SpellChecker.dll"
+      target="lib" />
+    <file src="..\..\bin\contrib\SpellChecker\Release\**\Lucene.Net.Contrib.SpellChecker.XML"
+      target="lib" />
+    <file src="..\..\bin\core\Release\**\Lucene.Net.dll" target="lib" />
+    <file src="..\..\bin\core\Release\**\Lucene.Net.XML" target="lib" />
 
-        <file src="..\..\..\branding\logo\lucene-net-icon-512x512.png" target="images\" />
+    <file src="..\..\..\branding\logo\lucene-net-icon-512x512.png" target="images\" />
   </files>
- 
+
 </package>
