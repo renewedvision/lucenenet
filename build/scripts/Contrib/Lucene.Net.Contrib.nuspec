@@ -19,13 +19,13 @@
 -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Lucene.Net.Contrib</id>
+    <id>RenewedVision.Lucene.Net.Contrib</id>
     <version>$version$</version>
     <title>Lucene.Net Contrib</title>
     <authors>Lucene.Net Community</authors>
     <owners>The Apache Software Foundation</owners>
-    <iconUrl>http://incubator.apache.org/lucene.net/media/lucene-net-ico-128x128.png</iconUrl>
-    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <icon>images\lucene-net-icon.png</icon>
+    <license type="expression">Apache-2.0</license>
     <projectUrl>http://lucenenet.apache.org/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Lucene.Net is a port of the Lucene search engine library, written in C# and targeted at .NET runtime users.
@@ -33,8 +33,9 @@
 **This package contains only the contrib Lucene.Net assemblies.</description>
     <summary>Lucene.Net is a port of the Lucene search engine library, written in C# and targeted at .NET runtime users.</summary>
 	<tags>lucene.net core search information retrieval lucene apache</tags>
-     <dependencies>
-     </dependencies>  
+        <dependencies>
+            <group targetFramework="netstandard2.0" />
+        </dependencies>
   </metadata>
   <files>
         <file src="..\..\bin\contrib\FastVectorHighlighter\Release\**\Lucene.Net.Contrib.FastVectorHighlighter.dll" target="lib" />
@@ -57,6 +58,10 @@
         <file src="..\..\bin\contrib\Snowball\Release\**\Lucene.Net.Contrib.Snowball.XML" target="lib" />
         <file src="..\..\bin\contrib\SpellChecker\Release\**\Lucene.Net.Contrib.SpellChecker.dll" target="lib" />
         <file src="..\..\bin\contrib\SpellChecker\Release\**\Lucene.Net.Contrib.SpellChecker.XML" target="lib" />
+        <file src="..\..\bin\core\Release\**\Lucene.Net.dll" target="lib" />
+        <file src="..\..\bin\core\Release\**\Lucene.Net.XML" target="lib" />
+
+        <file src="..\..\..\lucene-net-icon.png" target="images\" />
   </files>
  
 </package>

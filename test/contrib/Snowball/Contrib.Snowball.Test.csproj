@@ -60,8 +60,8 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <Framework>$(TargetFrameworkVersion.Replace("v", "NET").Replace(".", ""))</Framework>
-    <OutputPath>..\..\..\build\bin\contrib\Snowball\$(Configuration.Replace("35", ""))\$(Framework)\</OutputPath>
+    
+    <OutputPath>..\..\..\build\bin\contrib\Snowball\$(Configuration)\$(Framework)\</OutputPath>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
@@ -84,8 +84,8 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug35|AnyCPU' ">
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <Framework>$(TargetFrameworkVersion.Replace("v", "NET").Replace(".", ""))</Framework>
-    <OutputPath>..\..\..\build\bin\contrib\Snowball\$(Configuration.Replace("35", ""))\$(Framework)\</OutputPath>
+    
+    <OutputPath>..\..\..\build\bin\contrib\Snowball\$(Configuration)\$(Framework)\</OutputPath>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
@@ -108,8 +108,8 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <Framework>$(TargetFrameworkVersion.Replace("v", "NET").Replace(".", ""))</Framework>
-    <OutputPath>..\..\..\build\bin\contrib\Snowball\$(Configuration.Replace("35", ""))\$(Framework)\</OutputPath>
+    
+    <OutputPath>..\..\..\build\bin\contrib\Snowball\$(Configuration)\$(Framework)\</OutputPath>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
@@ -132,8 +132,8 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release35|AnyCPU' ">
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <Framework>$(TargetFrameworkVersion.Replace("v", "NET").Replace(".", ""))</Framework>
-    <OutputPath>..\..\..\build\bin\contrib\Snowball\$(Configuration.Replace("35", ""))\$(Framework)\</OutputPath>
+    
+    <OutputPath>..\..\..\build\bin\contrib\Snowball\$(Configuration)\$(Framework)\</OutputPath>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>

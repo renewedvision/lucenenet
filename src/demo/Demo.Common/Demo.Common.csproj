@@ -60,14 +60,14 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <Framework>$(TargetFrameworkVersion.Replace("v", "NET").Replace(".", ""))</Framework>
-    <OutputPath>..\..\..\build\bin\demo\Demo.Common\$(Configuration.Replace("35", ""))\$(Framework)\</OutputPath>
+    
+    <OutputPath>..\..\..\build\bin\demo\Demo.Common\$(Configuration)\$(Framework)\</OutputPath>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
     <ConfigurationOverrideFile></ConfigurationOverrideFile>
     <DefineConstants>DEBUG;TRACE;$(Framework)</DefineConstants>
-    <DocumentationFile></DocumentationFile>
+    
     <DebugSymbols>true</DebugSymbols>
     <FileAlignment>4096</FileAlignment>
     <NoStdLib>false</NoStdLib>
@@ -83,14 +83,14 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug35|AnyCPU' ">
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <Framework>$(TargetFrameworkVersion.Replace("v", "NET").Replace(".", ""))</Framework>
-    <OutputPath>..\..\..\build\bin\demo\Demo.Common\$(Configuration.Replace("35", ""))\$(Framework)\</OutputPath>
+    
+    <OutputPath>..\..\..\build\bin\demo\Demo.Common\$(Configuration)\$(Framework)\</OutputPath>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
     <ConfigurationOverrideFile></ConfigurationOverrideFile>
     <DefineConstants>DEBUG;TRACE;$(Framework)</DefineConstants>
-    <DocumentationFile></DocumentationFile>
+    
     <DebugSymbols>true</DebugSymbols>
     <FileAlignment>4096</FileAlignment>
     <NoStdLib>false</NoStdLib>
@@ -106,14 +106,14 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <Framework>$(TargetFrameworkVersion.Replace("v", "NET").Replace(".", ""))</Framework>
-    <OutputPath>..\..\..\build\bin\demo\Demo.Common\$(Configuration.Replace("35", ""))\$(Framework)\</OutputPath>
+    
+    <OutputPath>..\..\..\build\bin\demo\Demo.Common\$(Configuration)\$(Framework)\</OutputPath>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
     <ConfigurationOverrideFile></ConfigurationOverrideFile>
     <DefineConstants>TRACE;$(Framework)</DefineConstants>
-    <DocumentationFile>..\..\..\build\bin\demo\Demo.Common\$(Configuration.Replace("35", ""))\$(Framework)\Lucene.Net.Demo.Common.XML</DocumentationFile>
+    
     <DebugSymbols>true</DebugSymbols>
     <FileAlignment>4096</FileAlignment>
     <NoStdLib>false</NoStdLib>
@@ -129,14 +129,14 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release35|AnyCPU' ">
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <Framework>$(TargetFrameworkVersion.Replace("v", "NET").Replace(".", ""))</Framework>
-    <OutputPath>..\..\..\build\bin\demo\Demo.Common\$(Configuration.Replace("35", ""))\$(Framework)\</OutputPath>
+    
+    <OutputPath>..\..\..\build\bin\demo\Demo.Common\$(Configuration)\$(Framework)\</OutputPath>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
     <ConfigurationOverrideFile></ConfigurationOverrideFile>
     <DefineConstants>TRACE;$(Framework)</DefineConstants>
-    <DocumentationFile>..\..\..\build\bin\demo\Demo.Common\$(Configuration.Replace("35", ""))\$(Framework)\Lucene.Net.Demo.Common.XML</DocumentationFile>
+    
     <DebugSymbols>true</DebugSymbols>
     <FileAlignment>4096</FileAlignment>
     <NoStdLib>false</NoStdLib>
