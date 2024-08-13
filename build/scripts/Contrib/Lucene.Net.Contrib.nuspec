@@ -24,7 +24,7 @@
     <title>Lucene.Net Contrib</title>
     <authors>Lucene.Net Community</authors>
     <owners>The Apache Software Foundation</owners>
-    <icon>images\lucene-net-icon.png</icon>
+    <icon>images\lucene-net-icon-512x512.png</icon>
     <license type="expression">Apache-2.0</license>
     <projectUrl>http://lucenenet.apache.org/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -61,7 +61,7 @@
         <file src="..\..\bin\core\Release\**\Lucene.Net.dll" target="lib" />
         <file src="..\..\bin\core\Release\**\Lucene.Net.XML" target="lib" />
 
-        <file src="..\..\..\lucene-net-icon.png" target="images\" />
+        <file src="..\..\..\branding\logo\lucene-net-icon-512x512.png" target="images\" />
   </files>
  
 </package>
